@@ -38,13 +38,13 @@ def main():
     st.title(":orange[Liver Disease Prediction]") 
 
     st.markdown("""
-                Liver disease is becoming increasingly common due to factors such as excessive alcohol consumption, inhalation of harmful gases, consumption of contaminated food, pickles, and drug use. 
-
-                To address this, we have developed a prediction model using a **random forest classifier** to assess the potential risk of liver disease in patients based on specific parameters.
-
-                The dataset used in this application includes records collected from the **North East region of Andhra Pradesh, India**. It comprises **583 records of patients with liver disease** and **167 records of patients without liver disease**.
-
-                Explore this app to understand liver disease risk factors and make informed predictions.
+                   Liver disease is becoming more prevalent due to factors such as excessive alcohol consumption, exposure to harmful substances, poor dietary habits, and drug use.
+                   
+                   To address this, we’ve developed a prediction model using a random forest classifier. This model assesses the potential risk of liver disease in patients based on key health parameters.
+                   
+                   The dataset for this application includes 750 patient records, with 583 cases of liver disease and 167 without.
+                   
+                   Explore this app to gain insights into liver disease risk factors and make informed predictions.
                 """)
     # following lines create boxes in which user can enter data required to make prediction 
     
